@@ -7,16 +7,20 @@ The dataset contains 569 samples, each representing a breast tumor, with 30 feat
 
 - Mean radius
 - Mean texture
-Mean concavity
+- Mean concavity
 And more...
 The target variable is binary:
 
-0: Malignant (Cancerous)
-1: Benign (Non-Cancerous)
+- 0: Malignant (Cancerous)
+- 1: Benign (Non-Cancerous)
 
 Model Implementation:
 Data Splitting: The dataset is split into 80% training and 20% testing.
+
+
 Scaling: Features are scaled using StandardScaler to ensure improved model performance.
+
+
 Hyperparameter Tuning: GridSearchCV is applied to optimize the hyperparameters:
 Learning Rate: 0.2
 Max Depth: 3
