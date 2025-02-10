@@ -5,8 +5,8 @@ Breast Cancer Diagnosis using Gradient Boosting Classifier
 Dataset:
 The dataset contains 569 samples, each representing a breast tumor, with 30 feature variables describing characteristics extracted from digitized images of a breast mass, such as:
 
-Mean radius
-Mean texture
+- Mean radius
+- Mean texture
 Mean concavity
 And more...
 The target variable is binary:
